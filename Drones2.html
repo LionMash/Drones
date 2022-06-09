@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <HEAD>
+        <title>Drone Repair</title>
+    </HEAD>
+    <body style="background-color: silver; color: blue" >
+        <center>
+        <h1>Repair System</h1>
+        <h3>Lion Drones &copy;&reg;</h3><hr />
+        <fieldset>
+            <legend>Drone</legend>
+        <form action="" method="post" enctype="text/plain">
+            Serial Number:<input type="tel" name="Serial" placeholder="Enter Number" size="30" /><br  />
+            Drone type:<select name="DType">
+                <option value="None" disabled selected>Select your option</option>
+                <option value="D">Dji</option>
+                <option value="P">Px4</option>
+                <option value="T">Typhoon</option>
+            </select>
+        </fieldset>
+        <br   />
+        <fieldset>
+            <legend>Customer</legend>
+            Full Name:<input type="text" name="full name" placeholder="Enter Name" size="30" /><br />
+            ID Number:<input type="tel" name="ID" placeholder="Enter ID" size="30"  /><br />
+            Tel Number:<input type="tel" name="tel" placeholder="Enter Tel" size="30"  /><br  />
+        </fieldset>
+        <br  />
+        <fieldset>
+            <legend>The Problem</legend>
+            <textarea name="the Problem" placeholder="Describe The Problem" rows="6" cols="50" ></textarea>
+        </fieldset>
+        <br  />
+        <fieldset>
+            <legend>Arriving Date</legend>
+            <input type="date" size="50">
+        </fieldset>
+        <br  />
+        <fieldset>
+            <legend>Expected Estimated Completion</legend>
+            <input type="date" size="50">
+        </fieldset>
+        <br  />
+        <fieldset>
+            <legend>Warranty</legend>
+            <input type="radio" name="warranty" value="yes"  />Have Warranty
+            <br/>
+            <input type="radio" name="warranty" value="no"   />Dont have warrantys
+        </fieldset>
+        <br  />
+        <fieldset>
+            <legend>VIP</legend>
+            <input type="radio" name="VIP" value="vip"   />Vip
+            <br />
+            <input type="radio" name="VIP" value="regular"   />Regular
+        </fieldset>
+        <input type="submit" value="Submit" /><br  /><br   />
+        <input type="reset" value="Reset" /><br  />
+        </form><br   /><br   />
+        <form action="DroneMain.html">
+            <button type="submit">Home Page</button>
+        </center>
+        </form>
+    </body>
+</html>
